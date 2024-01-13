@@ -12,6 +12,11 @@ const nextConfig = {
         hostname: "encrypted-tbn0.gstatic.com",
         pathname: "**",
       },
+      {
+        protocol: "https",
+        hostname: "media.licdn.com",
+        pathname: "**",
+      },
     ],
   },
 };
